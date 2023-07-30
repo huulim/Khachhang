@@ -9,9 +9,9 @@ import java.util.List;
 import domain.model.Khachhang;
 
 public class KhachhangDAOImpl implements KhachhangDAO {
-    private StudentGateway studentGateway;
+    private CustomerGateway CustomerGateway;
 
-    public KhachhangDAOImpl(StudentGateway studentGateway) {
+    public KhachhangDAOImpl(CustomerGateway CustomerGateway) {
         this.studentGateway = studentGateway;
     }
 
